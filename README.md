@@ -8,21 +8,21 @@ __Prio__, a privacy-preserving system for computing aggregate statistics over se
 
 Prio combines two key cryptographic primitives:
 
-- _Secret-shared Non-Interactive Proofs_ (_SNIPs_): zero knowledge proofs used to allow the clients to submit a proof of correctness together with the private data.
+- _Secret-shared Non-Interactive Proofs_ (_SNIPs_): zero knowledge proofs that enable clients to prove the correctness of their private data without revealing it.
 - _Affine-Aggregatable Encodings_ (_AFEs_): encode client inputs into vectors to allow the servers to aggregate the encodings and compute complex statistics.
 
 The system is designed to achieve:
 
 - _Privacy_, as no single server ever sees raw client data
 - _Robustness_, as maliciously malformed data is rejected
-- _Scalability_, as the system introduces low overhead even for large scale developments
+- _Scalability_, as the system introduces minimal overhead, even at large scale
 
-The protocol is used in multiple real-world applications:
+The protocol is used in various real-world scenarios:
 
-- Collecting anonymized browser statistics ([Mozilla Firefox](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) - [Next steps in privacy-preserving Telemetry with Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/))
+- Collecting anonymized browser statistics ([Mozilla Firefox](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) - [Next steps in privacy-preserving Telemetry with Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/)).
 - Federated learning and privacy-preserving machine learning ([FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning](https://arxiv.org/abs/2009.11248) - [Samplable Anonymous Aggregation for Private Federated Data
-Analysis](https://arxiv.org/abs/2307.15017))
-- Secure and private telemetry in mobile devices ([Exposure notification privacy-preserving analytics by Apple and Google](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf))
+Analysis](https://arxiv.org/abs/2307.15017)).
+- Secure and private telemetry in mobile devices ([Exposure notification privacy-preserving analytics by Apple and Google](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)).
 
 ## Materials
 

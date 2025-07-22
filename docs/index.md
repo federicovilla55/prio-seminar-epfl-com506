@@ -27,8 +27,8 @@ Analysis](https://arxiv.org/abs/2307.15017)).
 
 ## Materials
 
-- [Report](report/prio-report.pdf)
-- [Presentation](presentation/prio-presentation.pdf)
+- [Report](../report/prio-report.pdf)
+- [Presentation](../presentation/prio-presentation.pdf)
 
 ![Prio Performance](assets/prio_performance.png)
 

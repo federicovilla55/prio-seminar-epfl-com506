@@ -22,12 +22,15 @@ The protocol is used in various real-world scenarios:
 - Collecting anonymized browser statistics ([Mozilla Firefox](https://blog.mozilla.org/en/firefox/partnership-ohttp-prio/) - [Next steps in privacy-preserving Telemetry with Prio](https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/)).
 - Federated learning and privacy-preserving machine learning ([FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning](https://arxiv.org/abs/2009.11248) - [Samplable Anonymous Aggregation for Private Federated Data
 Analysis](https://arxiv.org/abs/2307.15017)).
-- Secure and private telemetry in mobile devices ([Exposure notification privacy-preserving analytics by Apple and Google](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)).
+- Secure and private telemetry in mobile devices ([Exposure notification privacy-preserving analytics by Apple and Google](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)). ![Prio Private Aggregation](assets/prio_private_aggregation.png)
+
 
 ## Materials
 
 - [Report](report/prio-report.pdf)
 - [Presentation](presentation/prio-presentation.pdf)
+
+![Prio Performance](assets/prio_performance.png)
 
 ## Acknowledgements
 

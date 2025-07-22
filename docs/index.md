@@ -13,9 +13,9 @@ Prio combines two key cryptographic primitives:
 
 The system is designed to achieve:
 
-- _Privacy_, as no single server ever sees raw client data
-- _Robustness_, as maliciously malformed data is rejected
-- _Scalability_, as the system introduces minimal overhead, even at large scale
+- _Privacy_, as no single server ever sees raw client data;
+- _Robustness_, as maliciously malformed data is rejected;
+- _Scalability_, as the system introduces minimal overhead, even at large scale.
 
 The protocol is used in various real-world scenarios:
 
@@ -31,6 +31,12 @@ Analysis](https://arxiv.org/abs/2307.15017)).
 - [Presentation](presentation/prio-presentation.pdf)
 
 ![Prio Performance](assets/prio_performance.png)
+
+## Contributors
+
+> Federico Villa, Gabriele Stentella, Octave Charrin 
+>
+> Cyber Security Master - ETH Zurich
 
 ## Acknowledgements
 
